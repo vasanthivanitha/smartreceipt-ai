@@ -1,0 +1,55 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 842] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+5 0 obj
+<< /Length 458 >>
+stream
+BT /F1 12 Tf 40 780 Td 20 TL
+(GREENFIELD MARKET) Tj
+T*
+(SYNTHETIC RECEIPT - NOT A REAL PURCHASE) Tj
+T*
+(2026-11-01) Tj
+T*
+(Currency USD) Tj
+T*
+(Milk 2 x 2.25                 4.50) Tj
+T*
+(Paper towels 1 x 6.00         6.00) Tj
+T*
+(Shampoo 1 x 8.00              8.00) Tj
+T*
+(Subtotal                    18.50) Tj
+T*
+(Tax                          1.50) Tj
+T*
+(Discount                     0.00) Tj
+T*
+(Grand Total                 20.00) Tj
+T*
+(Thank you!) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000309 00000 n 
+trailer << /Size 6 /Root 1 0 R >>
+startxref
+818
+%%EOF
