@@ -48,7 +48,7 @@ def sweep():
         pending=list(db.execute(select(Receipt.workspace_id,Receipt.id).where(
             (Receipt.state=='queued') | ((Receipt.state=='processing') & (Receipt.updated_at<datetime.utcnow()-timedelta(minutes=10))))))
     for wid,rid in pending:
-        queue.enqueue(process_receipt,wid,rid,job_timeout=540,result_ttl=0,failure_ttl=3600)
+        queue.enqueue("app.jobs.process_receipt",wid,rid,job_timeout=540,result_ttl=0,failure_ttl=3600)
     with Session() as db:
         ids=list(db.scalars(select(Deletion.id).where(Deletion.next_attempt<=datetime.utcnow())))
     for did in ids:
